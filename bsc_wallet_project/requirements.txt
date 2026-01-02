@@ -1,0 +1,20 @@
+# 1. Update requirements.txt
+echo web3==7.14.0 > requirements.txt
+echo eth-account==0.13.7 >> requirements.txt
+echo python-dotenv==1.2.1 >> requirements.txt
+echo requests==2.32.5 >> requirements.txt
+
+# 2. Add RPC to .env
+echo RPC_URL=https://data-seed-prebsc-1-s1.binance.org:8545/ > .env
+echo PRIVATE_KEY=your_private_key_here >> .env
+
+# 3. Verify
+type requirements.txt
+type .env
+
+# fastapi==0.115.0
+# uvicorn==0.30.0
+
+streamlit==1.38.0
+
+
