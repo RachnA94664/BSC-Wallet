@@ -20,7 +20,7 @@
 
 ```bash
 # 1. Clone & Setup
-git clone <your-repo> && cd bsc_wallet_project
+[Click here to view the repository](https://github.com/RachnA94664/BSC-Wallet)
 python -m venv venv && .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
@@ -189,4 +189,5 @@ Token Transfer: Pending token funding
 **👨‍💻 Built by: Rachna Verma**  
 **⏰ Completed: Jan 2, 2026**  
 **🌐 BSC Testnet Block: 82M+** 
+
 
